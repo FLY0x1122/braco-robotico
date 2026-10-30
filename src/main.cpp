@@ -39,7 +39,7 @@ const bool INVERTE_JOY2_Y = false;
 // O valor mínimo normal é 0 e o máximo é 180.
 
 const int MIN_SERVO1 = 50;
-const int MAX_SERVO1 = 140;
+const int MAX_SERVO1 = 160;
 
 const int MIN_SERVO2 = 0;  // Exemplo: não deixa baixar de 20 graus
 const int MAX_SERVO2 = 180; // Exemplo: não deixa passar de 160 graus
@@ -48,7 +48,7 @@ const int MIN_SERVO3 = 50;
 const int MAX_SERVO3 = 160;
 
 const int MIN_SERVO4 = 54;
-const int MAX_SERVO4 = 92;
+const int MAX_SERVO4 = 100;
 
 // =================================================================
 // CONFIGURAÇÕES DE COMPORTAMENTO
