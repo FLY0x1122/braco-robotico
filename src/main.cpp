@@ -6,20 +6,20 @@
 // =================================================================
 
 // Pinos dos Analógicos (2 Joysticks = 4 eixos)
-const int PINO_JOY1_X = A0;
-const int PINO_JOY1_Y = A1;
-const int PINO_JOY2_X = A2;
-const int PINO_JOY2_Y = A3;
+const int PINO_JOY1_X = A0;   //esquerdo horizontal
+const int PINO_JOY1_Y = A1;   //esquerdo vertical
+const int PINO_JOY2_X = A2;   //direito horizontal
+const int PINO_JOY2_Y = A3;   //direito vertical
 
 // Pinos dos Botões (Opcional)
 const int PINO_BTN1 = 2;
 const int PINO_BTN2 = 3;
 
 // Pinos dos Servos (Devem ser portas PWM)
-const int PINO_SERVO1 = 11;
-const int PINO_SERVO2 = 7;
-const int PINO_SERVO3 = 10;
-const int PINO_SERVO4 = 9;
+const int PINO_SERVO1 = 11;   //base
+const int PINO_SERVO2 = 7;    //junta 1
+const int PINO_SERVO3 = 10;   //junta 2
+const int PINO_SERVO4 = 9;    //garra
 
 // =================================================================
 // CONFIGURAÇÕES DE INVERSÃO DE CONTROLE
@@ -41,8 +41,8 @@ const bool INVERTE_JOY2_Y = false;
 const int MIN_SERVO1 = 50;
 const int MAX_SERVO1 = 160;
 
-const int MIN_SERVO2 = 0;  // Exemplo: não deixa baixar de 20 graus
-const int MAX_SERVO2 = 180; // Exemplo: não deixa passar de 160 graus
+const int MIN_SERVO2 = 0;
+const int MAX_SERVO2 = 180;
 
 const int MIN_SERVO3 = 50;
 const int MAX_SERVO3 = 160;
