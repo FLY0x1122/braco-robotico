@@ -2,6 +2,8 @@
 
 Projeto de um braço robótico de 4 graus de liberdade (4 DOF) construído em estrutura de MDF, acionado por micro servos SG90 e controlado por um Arduino Uno através de um suporte de joystick analógico duplo.
 
+![foto](./foto.jpg)
+
 ---
 
 ## 📌 Visão Geral
