@@ -6,25 +6,25 @@
 // =================================================================
 
 // Pinos dos Analógicos (2 Joysticks = 4 eixos)
-const int PINO_JOY1_X = A0;   //esquerdo horizontal
-const int PINO_JOY1_Y = A1;   //esquerdo vertical
-const int PINO_JOY2_X = A2;   //direito horizontal
-const int PINO_JOY2_Y = A3;   //direito vertical
+const int PINO_JOY1_X = A0;   //esquerdo horizontal	//Edite!!
+const int PINO_JOY1_Y = A1;   //esquerdo vertical	//Edite!!
+const int PINO_JOY2_X = A2;   //direito horizontal	//Edite!!
+const int PINO_JOY2_Y = A3;   //direito vertical	//Edite!!
 
 // Pinos dos Botões (Opcional)
 const int PINO_BTN1 = 2;
 const int PINO_BTN2 = 3;
 
 // Pinos dos Servos (Devem ser portas PWM)
-const int PINO_SERVO1 = 11;   //base
-const int PINO_SERVO2 = 7;    //junta 1
-const int PINO_SERVO3 = 10;   //junta 2
-const int PINO_SERVO4 = 9;    //garra
+const int PINO_SERVO1 = 11;   //Base			//Edite!!
+const int PINO_SERVO2 = 7;    //Ombro			//Edite!!
+const int PINO_SERVO3 = 10;   //Cotovelo		//Edite!!
+const int PINO_SERVO4 = 9;    //Garra			//Edite!!
 
 // =================================================================
 // CONFIGURAÇÕES DE INVERSÃO DE CONTROLE
 // =================================================================
-// Se um servo estiver girando para o lado contrário do desejado, 
+// Se um servo estiver girando para o lado contrário do desejado,
 // altere de "false" para "true".
 
 const bool INVERTE_JOY1_X = true;
