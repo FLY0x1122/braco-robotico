@@ -43,3 +43,8 @@ O projeto permite o controle preciso e em tempo real das articulações de um ma
 | **Joystick 2 - Eixo Y** | `A3` | Controle de abertura da garra |
 
 > ⚠️ **Recomendação Elétrica:** Nunca alimente a linha de VCC dos 4 servos diretamente pela saída de 5V do Arduino, pois o pico de corrente pode causar *reset* por *brownout*. Utilize fonte de alimentação dedicada de 5V e una os **GNDs** da fonte e do Arduino.
+
+---
+
+## `main.cpp`  
+[https://github.com/FLY0x1122/braco-robotico/blob/master/src/main.cpp](https://github.com/FLY0x1122/braco-robotico/blob/master/src/main.cpp)
